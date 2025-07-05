@@ -248,9 +248,10 @@ img {
 }
   
 .card img {
-    width: 20%;
-    height: auto;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
+    flex-shrink: 0;
 }
   
 .card-content {
@@ -1336,6 +1337,14 @@ form button {
     padding-left: 60px;
 }
 
+.exhibit-details-two {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
 
 
 .exhibit-description {
